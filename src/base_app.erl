@@ -10,8 +10,8 @@ stop(_State) ->
     ok.
 
 start_deps_apps()->
-    inets:start(),
-    ssl:start(),
+    % inets:start(),
+    % ssl:start(),
     log:init(),
     application:start(crypto),
     ok.    
