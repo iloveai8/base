@@ -1,0 +1,11 @@
+{application, base,
+	[
+		{description, "base_app for game server engine"},
+		{vsn, "1"},
+		{modules, []},
+		{registered, []},
+		{mod, {base_app, []}},
+		{env, []},
+  		{applications, [kernel, stdlib]}
+	]
+}.	
